@@ -3,8 +3,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.datasets import load_iris
 import joblib
 import mlflow
-
-mlflow.set_experiment("Iris-Experiment")
+import dagshub
+dagshub.init(repo_owner='nasim-raj-laskar', repo_name='MLOps-Sandbox', mlflow=True)
 
 with mlflow.start_run():
     data = load_iris(as_frame=True)
