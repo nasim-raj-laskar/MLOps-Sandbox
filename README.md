@@ -2,4 +2,4 @@
 
 ## Architecture
 
-![Architecture Diagram](app/arch.png)
+![Architecture-Diagram](app/arch.png)
